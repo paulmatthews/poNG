@@ -3,9 +3,7 @@
 /* Controllers */
 
 angular.module('myApp.controllers', [])
-  .controller('MyCtrl1', [function() {
+  .controller('poNG', ['$scope', 'Players', function($scope, Players) {
+    $scope.players = Players;
 
   }])
-  .controller('MyCtrl2', [function() {
-
-  }]);

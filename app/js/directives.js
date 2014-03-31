@@ -8,4 +8,10 @@ angular.module('myApp.directives', []).
     return function(scope, elm, attrs) {
       elm.text(version);
     };
-  }]);
+  }])
+  .directive('ngLoadX', function() {
+    return {
+      restrict: 'A',
+      templateUrl: 'partials/yodawg.html'
+    };
+  });

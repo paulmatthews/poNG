@@ -1,4 +1,9 @@
 /* app css stylesheet */
+*,*:before,*:after {
+  box-sizing:border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
 
 .menu {
   list-style: none;
@@ -27,4 +32,21 @@
 .menu > li:nth-child(1):before {
   content: "";
   padding: 0;
+}
+ul {
+  list-style:none;
+  overflow:hidden;
+}
+li {
+  float:left;
+  padding: 0 2em;
+}
+.player-name {
+  margin-bottom: .25em;
+}
+footer {
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:100%;
 }
