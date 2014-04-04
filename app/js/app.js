@@ -2,12 +2,12 @@
 
 
 // Declare app level module which depends on filters, and services
-angular.module('myApp', [
+angular.module('poNG', [
   'ngRoute',
-  'myApp.filters',
-  'myApp.services',
-  'myApp.directives',
-  'myApp.controllers'
+  'poNG.filters',
+  'poNG.services',
+  'poNG.directives',
+  'poNG.controllers'
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/', {templateUrl: 'partials/home.html', controller: 'poNG'});
