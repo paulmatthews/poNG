@@ -5,12 +5,12 @@ for Ping Pong tournaments in the rumpus room.
 
 ## Getting Started
 
-This application was built using the [angular-seed][angular-seed] project.  The Clone and Install
+This application was built using the [angular-seed](https://github.com/angular/angular-seed) project.  The Clone and Install
 Dependencies sections are modified for poNG
 
 ### Clone poNG
 
-Clone the poNG repository using [git][git]:
+Clone the poNG repository using [git](https://github.com/git/git):
 
 ```
 git clone https://github.com/paulmatthews/poNG.git
@@ -19,11 +19,11 @@ cd poNG
 
 ### Install Dependencies
 
-The [angular-seed][angular-seed] project has two kinds of dependencies in this project: tools and
+The [angular-seed](https://github.com/angular/angular-seed) project has two kinds of dependencies in this project: tools and
 angular framework code.  The tools help them manage and test the application.
 
-* They get the tools we depend upon via `npm`, the [node package manager][npm].
-* They get the angular code via `bower`, a [client-side code package manager][bower].
+* They get the tools we depend upon via `npm`, the [node package manager](https://github.com/npm/npm).
+* They get the angular code via `bower`, a [client-side code package manager](https://github.com/bower/bower).
 
 They have preconfigured `npm` to automatically run `bower` so we can simply do:
 
