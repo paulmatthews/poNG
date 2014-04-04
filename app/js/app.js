@@ -7,7 +7,8 @@ angular.module('poNG', [
   'poNG.filters',
   'poNG.services',
   'poNG.directives',
-  'poNG.controllers'
+  'poNG.controllers',
+  'lvl.directives.dragdrop'
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/', {templateUrl: 'partials/home.html', controller: 'poNG'});

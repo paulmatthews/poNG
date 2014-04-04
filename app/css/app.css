@@ -50,3 +50,19 @@ footer {
   left:0;
   width:100%;
 }
+[draggable] {
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  user-select:none;
+  cursor:move;
+}
+.drop-list {
+  min-height:20px;
+  background:grey;
+  opacity:.7;
+  list-style:none;
+}
+.drop-list li {
+  float:left;
+  width:100%;
+}
