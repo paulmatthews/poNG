@@ -7,19 +7,10 @@ angular.module('poNG.controllers', [])
     $scope.players = Players;
     $scope.dropped = function(dragEl, dropEl) {
       var drop = angular.element(dropEl),
-          drag = angular.element(dragEl);
-      var name = drag.attr('data-name'),
-          rank = drag.attr('data-rank'),
-          newLi = document.createElement("li"),
-          nameDiv = document.createElement("div"),
-          rankDiv = document.createElement("div");
-      nameDiv.innerHTML = name;
-      rankDiv.innerHTML = rank;
-      newLi.appendChild(nameDiv);
-      newLi.appendChild(rankDiv);
-      
-      document.getElementsByTagName("ul")[1].appendChild(newLi);
-        
+          drag = angular.element(dragEl).clone();
+
+      drop.append(drag);
+      dragEl.remove();
     };
 
   }]);
